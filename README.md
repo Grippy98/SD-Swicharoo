@@ -15,17 +15,17 @@ It acts as a switch and multiplexer, allowing any one of three (3) SD cards to b
 - **Hot-Swap Capability:** Switch between hosts without powering down the system.
 - **Easy Integration:** Designed with standard pin headers for breadboard or direct PCB integration.
 - **Modular Daisy-Chain Design:** Allows boards to be daisy-chained via QWIIC and/or stacked via standard 0.1" header.
-- 
+  
 ## Use Cases
 
 - **CI/CD Automation:** Integrate into automated test fixtures to cycle through different software configurations for reliability and compatibility testing.
 - **A/B Testing:** Test the same software image between multiple boards
--  **Automated Flashing:** Flash multiple SD cards in an automated fashion
+- **Automated Flashing:** Flash multiple SD cards in an automated fashion
 
 ## How it Works
 
 <p align="center">
-  <img src="Images/Main.png" alt="Main view of the SD Swicharoo board">
+  <img src="Images/Basic_Usage.png" alt="Angle view of the SD Swicharoo with pin descriptions">
 </p>
 
 The SD Swicharoo uses high-speed multiplexer ICs controlled by a MSPM0 microcontroller to connect one of two ports to any of 3 Micro SD cards. 
@@ -40,7 +40,11 @@ Control examples are provided for -
 - [ ] Tiva TM4C129 based TADA Board
 - [ ] RP2040 Pi Pico
 
+## Hardware 
 
+<p align="center">
+  <img src="Images/Main.png" alt="Main view of the SD Swicharoo board">
+</p>
 
 ## Pinout and Connections
 
@@ -96,7 +100,6 @@ Initial CCS project provided above.
 - [ ] I2C Forwarding
 - [ ] Debug Logging
 - [ ] Remove need for CCS
-
 
 Docs coming soon...
 
