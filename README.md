@@ -15,7 +15,7 @@ It acts as a switch and multiplexer, allowing any one of three (3) SD cards to b
 - **Hot-Swap Capability:** Switch between hosts without powering down the system.
 - **Easy Integration:** Designed with standard pin headers for breadboard or direct PCB integration.
 - **Modular Daisy-Chain Design:** Allows boards to be daisy-chained via QWIIC and/or stacked via standard 0.1" header.
-- 
+  
 ## Use Cases
 
 - **CI/CD Automation:** Integrate into automated test fixtures to cycle through different software configurations for reliability and compatibility testing.
