@@ -1,0 +1,9 @@
+"./SD_Swicharoo_mspm0l1227.o"
+"./syscfg/ti_msp_dl_config.o"
+"./startup_mspm0l122x_gcc.o"
+-Wl,-T"syscfg/device_linker.lds"
+-l:device.lds.genlibs
+-lgcc
+-lc
+-lm
+-lnosys
