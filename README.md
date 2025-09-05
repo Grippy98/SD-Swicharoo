@@ -1,5 +1,8 @@
 # SD Swicharoo: a modular SD card mux for embedded development
 
+## WARNING - THIS IS A WORK IN PROGRESS AND NOT READY FOR PRODUCTION
+I do not suggest making PCBs with the current design as it stands.
+
 <p align="center">
   <img src="Images/Main_Angle.png" alt="SD Swicharoo Cover Image">
 </p>
